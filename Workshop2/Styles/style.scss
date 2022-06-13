@@ -85,7 +85,7 @@ body {
         border: none;
         background-color: #F97794;
         color: white;
-        padding-top: 10px;
+        // padding-top: 10px;
         font-size: 15px;
         align-self: center;
         display: flex;
@@ -304,6 +304,7 @@ body {
     align-items: baseline;
     .carda{
         text-align: left;
+
     }
 
     .cardb{
@@ -338,6 +339,7 @@ color: #445A64;
 
     .Dailyai{
         text-align: center;
+        padding: 15px;
     }
 
     .NTS{
@@ -545,6 +547,9 @@ align-content: center;
 justify-content: center;
 text-align: center;
 gap: 10px;
+object-fit: contain;
+object-position: center;
+
 }
 
 .design_items1{
@@ -554,8 +559,16 @@ gap: 20px
 
 .design_items2{
     display: flex;
-    gap: 20px
+    gap: 20px;
+    object-fit: contain;
+    object-position: center;
+
+    img{
+    object-fit: contain;
+object-position: center;
+
     }
+}
 
     // .poster{
     //     width: 1403px;
@@ -576,6 +589,7 @@ width: 450px;
 height: 250px;
 left: 164px;
 top: 4188px;
+padding: 10px;
 
 background: #FFFFFF;
 box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
@@ -602,6 +616,7 @@ color: #445A64;
     height: 250px;
     left: 164px;
     top: 4188px;
+    padding: 10px;
     
     background: #FFFFFF;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
@@ -630,6 +645,8 @@ color: #445A64;
 
     .img{
         padding-right: 10px;
+    border-radius: 100%;
+
     }
 }
 
@@ -641,7 +658,9 @@ color: #445A64;
     justify-content: space-between;
 
   .img{
-        padding-right: 50px;
+    padding-right: 10px;
+    border-radius: 100%;
+
     }
 
   
@@ -768,6 +787,78 @@ height: 23px;
 }
 
 
+.connect{
+    background: #F7F9FF;
+    .p{
+        color:#EE7892;
+    }
+}
+
+
+.sections{
+    display: flex;
+  
+   
+}
+
+input{
+    padding: 15px;
+    
+    width: 350px;
+    border-color : #D0D0D0;
+    
+}
+
+.email{
+    padding-left: 20px;
+}
+
+.input_items_1{
+    display: flex;
+    
+    .name{
+        border-radius: 30px;
+    }
+
+    .email{
+        border-radius: 30px;
+    }
+}
+
+.input_items_2{
+
+    .subject{
+        width:755px;
+        border-radius: 30px;
+    }
+
+    .message{
+        border-radius: 5px;
+        width:755px;
+        padding-bottom: 100px;
+    }
+   
+    button{
+        background: #EE7892;
+    border-radius: 29.5px;
+    padding: 20px 36px 20px 36px;
+    border: none;
+    color: white;
+    font-size: 10px;
+    }
+}
+
+
+.right_section{
+   
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .icon{
+        width:20px;
+    }
+}
 
 
 

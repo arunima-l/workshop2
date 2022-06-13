@@ -92,7 +92,6 @@ body {
   border: none;
   background-color: #F97794;
   color: white;
-  padding-top: 10px;
   font-size: 15px;
   -ms-flex-item-align: center;
       align-self: center;
@@ -386,6 +385,7 @@ body {
 
 .items3 .Dailyai {
   text-align: center;
+  padding: 15px;
 }
 
 .items3 .NTS {
@@ -649,6 +649,10 @@ body {
           justify-content: center;
   text-align: center;
   gap: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .design_items1 {
@@ -663,6 +667,17 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.design_items2 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .card_reference {
@@ -679,6 +694,7 @@ body {
   height: 250px;
   left: 164px;
   top: 4188px;
+  padding: 10px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
           box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
@@ -712,6 +728,7 @@ body {
   height: 250px;
   left: 164px;
   top: 4188px;
+  padding: 10px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
           box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.14221);
@@ -758,6 +775,7 @@ body {
 
 .waitwhile_img .img {
   padding-right: 10px;
+  border-radius: 100%;
 }
 
 .dailyai_img {
@@ -777,7 +795,8 @@ body {
 }
 
 .dailyai_img .img {
-  padding-right: 50px;
+  padding-right: 10px;
+  border-radius: 100%;
 }
 
 .core_team {
@@ -909,5 +928,78 @@ body {
 
 .blog_items .item_2 h3 {
   color: #EE7892;
+}
+
+.connect {
+  background: #F7F9FF;
+}
+
+.connect .p {
+  color: #EE7892;
+}
+
+.sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+input {
+  padding: 15px;
+  width: 350px;
+  border-color: #D0D0D0;
+}
+
+.email {
+  padding-left: 20px;
+}
+
+.input_items_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input_items_1 .name {
+  border-radius: 30px;
+}
+
+.input_items_1 .email {
+  border-radius: 30px;
+}
+
+.input_items_2 .subject {
+  width: 755px;
+  border-radius: 30px;
+}
+
+.input_items_2 .message {
+  border-radius: 5px;
+  width: 755px;
+  padding-bottom: 100px;
+}
+
+.input_items_2 button {
+  background: #EE7892;
+  border-radius: 29.5px;
+  padding: 20px 36px 20px 36px;
+  border: none;
+  color: white;
+  font-size: 10px;
+}
+
+.right_section {
+  padding-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right_section .icon {
+  width: 20px;
 }
 /*# sourceMappingURL=style.css.map */
